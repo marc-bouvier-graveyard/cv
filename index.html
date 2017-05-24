@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> 
+    <meta charset="UTF-8">
+
+    <title>Marc BOUVIER</title>
+    <meta name="description" content="Marc BOUVIER - Développeur web">
+    <meta name="author" content="Marc BOUVIER">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- JQuery-->
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="page-header">
+        <h1>Marc BOUVIER
+            <small>Ingénieur en informatique</small>
+        </h1>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar-cv" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-cv">
+                <ul class="nav navbar-nav">
+                    <li><a href="#presentation">Présentation</a></li>
+                    <li><a href="#experience-pro">Expérience professionnelle</a></li>
+                    <li><a href="#experience-perso">Expérience personnelle</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- child of the body tag -->
+    <span id="top-link-block" class="hidden">
+        <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+            <i class="glyphicon glyphicon-chevron-up"></i> Retour au début
+        </a>
+    </span><!-- /top-link-block -->
+</header>
+<main class="container">
+    <section id="presentation">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Présentation</h2>
+            </div>
+            <div class="panel-body">
+                <p>Technophile enthousiaste et soucieux de la qualité, je cherche à rendre les applications sur
+                    lesquelles je
+                    travaille robustes et maintenables. C'est dans cette optique que j'essaie d’être à jour dans la
+                    connaissance et l'utilisation d'outils de
+                    productivité et de techniques de développement logiciel.
+                </p>
+                <p>
+                    Domain Driven Design (DDD) est un sujet qui m'intéresse particulièrement et je souhaite apprendre
+                    plus à ce
+                    sujet et mettre en pratique certains de ces principes.
+                </p>
+                <p>
+                    Curieux et créatif, je souhaite évoluer dans un environnement professionnel ou je pourrai apporter
+                    de
+                    nouvelles contributions et idées. Le travail d’équipe est crucial selon moi. C'est le meilleur
+                    vecteur pour améliorer l’équipe et moi-même
+                    (idéalement arriver a une équipe auto-organisée). Ce sont pour ces raisons que je souhaite
+                    travailler dans
+                    une équipe à échelle humaine dont les membres adhèrent à la philosophie des méthodes Agiles.
+                </p>
+                <p>
+                    Je m'intéresse également à l'ergonomie et à l'accessibilité des applications Web qui me semble être
+                    un sujet
+                    qui gagne en importance.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="experience-pro">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Expérience professionnelle</h2>
+            </div>
+            <div class="panel-body">
+
+                <div id="davidson">
+                    <h3>Consultant Java EE
+                        <small>pour <a href="http://www.davidson.fr" target="_blank">Davidson Consulting</a></small>
+                    </h3>
+
+                    <p>
+                        <time datetime="2014-10-05">D'octobre 2014</time>
+                        à aujourd'hui.
+                    </p>
+                    <p>Expertise Java EE en assistance technique.</p>
+                    <h4>Réalisations en interne</h4>
+                    <dl>
+                        <dt>Réalisations</dt>
+                        <dd>
+                            <ul>
+                                <li>Mise en place d'une <a href="https://github.com/marc-bouvier-dav/dav-jee-tuto">formation
+                                    d'initialition à Java EE</a>.
+                                </li>
+                                <li>Participation au recrutement de nouveaux consultants (entretiens téléphoniques).
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt>Technologies</dt>
+                        <dd>
+                            <span class="badge">Java EE 6 / 7</span>
+                            <span class="badge">JSF 2</span>
+                            <span class="badge">JPA</span>
+                            <span class="badge">Payara 4.1</span>
+                        </dd>
+                        <dt>Outils</dt>
+                        <dd>
+                            <span class="badge">Netbeans</span>
+                            <span class="badge">Virtualbox</span>
+                            <span class="badge">Github</span>
+                            <span class="badge">Google slides</span>
+                        </dd>
+                    </dl>
+                    <h4>Prestation pour <a href="http://www.agipi.com/" target="_blank">AGIPI</a>
+                        <small>Depuis
+                            <time datetime="2014-10-05">octobre 2014</time>
+                            .
+                        </small>
+                    </h4>
+                    <dl>
+                        <dt>Réalisations</dt>
+                        <dd>
+                            <ul>
+                                <li>Maintenance et évolution pour une application de gestion interne dans le cadre de la
+                                    numérisation des actes de gestion.
+                                </li>
+                                <li>Mise en place de nouvelles fonctionnalités et maintenance de l'outil dans le domaine
+                                    de
+                                    la
+                                    <em>prévoyance</em> et de l'<em>épargne</em>.
+                                </li>
+                                <li>
+                                    Mise en place de <em>batchs</em> pour mise à jour de formats de documents.
+                                </li>
+                                <li>Documentation et tests unitaires</li>
+                            </ul>
+                        </dd>
+
+                        <dt>Technologies</dt>
+                        <dd>
+                            <span class="badge">Java EE 7</span>
+                            <span class="badge">SOA</span>
+                            <span class="badge">Services web (SOAP)</span>
+                            <span class="badge">JSF2</span>
+                            <span class="badge">Primefaces 5.3</span>
+                            <span class="badge">Spring framework (AOP, Security)</span>
+                        </dd>
+                        <dt>Industrialisation</dt>
+                        <dd>
+                            <span class="badge">Maven</span>
+                            <span class="badge">Jenkins</span>
+                            <span class="badge">Sonar</span>
+                        </dd>
+                        <dt>Outils</dt>
+                        <dd>
+                            <span class="badge">IntelliJ Idea</span>
+                            <span class="badge">Jira</span>
+                            <span class="badge">Confluence</span>
+                        </dd>
+                        <dt>Domaines fonctionnels</dt>
+                        <dd>
+                            <p>Assurance : épargne, prévoyance, comptabilité</p>
+                        </dd>
+                        <dt>Problématiques</dt>
+                        <dd>
+                            <ul>
+                                <li>Architecture d'entreprise</li>
+                                <li>Architecture orientée service</li>
+                                <li>Analyse d'impact</li>
+                                <li>Estimation de charge</li>
+                                <li>Coopération et communication inter-équipes</li>
+                                <li>Livraison en environnements de pré-production</li>
+                                <li>Test fonctionnel</li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <div id="atos">
+                    <h3>Ingénieur d'études
+                        <small>pour <a href="https://fr.atos.net" target="_blank">Atos</a></small>
+                    </h3>
+                </div>
+                <div id="hindsite">
+                    <h3>Stagiaire puis salarié
+                        <small>pour <a href="http://hindsiteinc.com/" target="_blank">Hindsite Interactive Inc.</a></small>
+                    </h3>
+                </div>
+                <div id="smartesting">
+                    <h3>Stagiaire R&D
+                        <small>pour <a href="http://www.smartesting.com/" target="_blank">Smartesting Solutions & Services</a></small>
+                    </h3>
+                </div>
+                <div id="cnrs">
+                    <h3>Stagiaire R&D
+                        <small>pour <a href="http://www.cnrs.fr/" target="_blank">le CNRS</a></small>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience-perso">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Expérience personnelle</h2>
+            </div>
+            <div class="panel-body">
+
+                <h3>AMP Consultants (V1)</h3>
+
+                <dl class="dl-horizontal">
+                    <dt>Site</dt>
+                    <dd><a href="https://web.archive.org/web/20151018141329/http://ampconsultants.fr/"
+                           target="_blank">AMP
+                        Consultants V1 (via internet archive)</a></dd>
+                    <dt>Description</dt>
+                    <dd>Première version du site vitrine pour l'Agence des Marchés Publics.</dd>
+                    <dt>Prestation bénévole</dt>
+                    <dd>
+                        <ul>
+                            <li>Analyse du besoin</li>
+                            <li>Maquettage</li>
+                            <li>Design</li>
+                            <li>Réalisation : site et écran d'administration pour les actualités</li>
+                            <li>Hébergement</li>
+                        </ul>
+                    </dd>
+                    <dt>Technologies</dt>
+                    <dd>
+                        <span class="badge">PHP 5</span>
+                        <span class="badge">MYSQL</span>
+                        <span class="badge">CSS 2</span>
+                        <span class="badge">XHTML 4</span>
+                        <span class="badge">.htaccess</span>
+                        <span class="badge">Twitter Bootstrap 3</span>
+                    </dd>
+                    <dt>Outils</dt>
+                    <dd>
+                        <ul>
+                            <span class="badge">Codiad</span>
+                            <span class="badge">Panel OVH</span>
+                            <span class="badge">Gimp</span>
+                        </ul>
+                    </dd>
+                    <dt>Domaines fonctionnels</dt>
+                    <dd>
+                        <p>Marchés publics, appels d'offres</p>
+                    </dd>
+                    <dt>Problématiques</dt>
+                    <dd>
+                        <ul>
+                            <li>Référencement</li>
+                            <li>Design et ergonomie : découpage du site</li>
+                            <li>Hébergement OVH</li>
+                        </ul>
+                    </dd>
+                </dl>
+
+                <h3>Moulin de la grande planche</h3>
+
+                <dl class="dl-horizontal">
+                    <dt>Site</dt>
+                    <dd><a href="http://moulin-grande-planche.w3bx.com/" target="_blank">http://moulin-grande-planche.w3bx.com/</a>
+                    </dd>
+                    <dt>Description</dt>
+                    <dd>Site vitrine pour promouvoir la chambre d'hôte tenue par Francine Boura.</dd>
+                    <dt>Prestation bénévole</dt>
+                    <dd>
+                        <ul>
+                            <li>Analyse du besoin</li>
+                            <li>Maquettage</li>
+                            <li>Design : optimisation et miniatures des images (script PHP), favicon</li>
+                            <li>Réalisation : site, localisation google maps</li>
+                            <li>Régionalisation : version anglophone</li>
+                            <li>Hébergement : Planethoster</li>
+                        </ul>
+                    </dd>
+                    <dt>Technologies</dt>
+                    <dd>
+
+                        <span class="badge">PHP 5</span>
+                        <span class="badge">CSS 2 : <a href="http://960.gs/"
+                                                       style="color:white">960 Grid System</a></span>
+                        <span class="badge">XHTML 4</span>
+                        <span class="badge">.htaccess</span>
+                        <span class="badge">Api google maps v3</span>
+                        <span class="badge">Fancybox 2</span>
+                        <span class="badge">Widget Itea pour le booking</span>
+
+                    </dd>
+                    <dt>Outils</dt>
+                    <dd>
+                        <ul>
+                            <span class="badge">Codiad</span>
+                            <span class="badge">Notepad++</span>
+                            <span class="badge">Cpanel</span>
+                            <span class="badge">Gimp</span>
+                        </ul>
+                    </dd>
+                    <dt>Domaines fonctionnels</dt>
+                    <dd>
+                        <p>Tourisme, chambres d'hôtes</p>
+                    </dd>
+                    <dt>Problématiques</dt>
+                    <dd>
+                        <ul>
+                            <li>Référencement</li>
+                            <li>Régionalisation</li>
+                        </ul>
+                    </dd>
+                </dl>
+
+                <ul>
+                    <li><a href="http://w3bx.com/jdr/">Roulage de dés</a> : application minimaliste : chat + lancement
+                        de
+                        dés
+                        virtuels
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>Marc BOUVIER - 2016</footer>
+
+<script>
+// Only enable if the document has a long scroll bar
+// Note the window height + offset
+if ( ($(window).height() + 100) < $(document).height() ) {
+    $('#top-link-block').removeClass('hidden').affix({
+        // how far to scroll down before link "slides" into view
+        offset: {top:100}
+    });
+}
+
+</script>
+</body>
+</html>
