@@ -58,5 +58,15 @@ var data = [{
         language: "Français",
         editor: "lulu.com",
         date: 2013
+    }, {
+        id: "97-things-every-programmer-should-know",
+        title: "97 Things Every Programmer Should Know",
+        subTitle: "Collective Wisdom from the Experts",
+        authors: ["Kevlin Henney", "contributions collectives"],
+        cover: "img/bibliotheque/97-things-every-programmer-should-know.jpg",
+        isbn13: "9780596809485",
+        language: "Anglais",
+        editor: "O'Reilly",
+        date: 2010
     }
 ]
