@@ -88,5 +88,33 @@ var data = [{
         language: "Anglais",
         editor: "Addison-Wesley",
         date: 1999
+    }, {
+        id: "refactoring-to-patterns",
+        title: "Refactoring to Paztterns",
+        authors: ["Joshua Kerievsky"],
+        cover: "img/bibliotheque/refactoring-to-patterns.jpg",
+        isbn13: "9780321213358",
+        language: "Anglais",
+        editor: "Addison-Wesley",
+        date: 2005
+    }, {
+        id: "release-it",
+        title: "Release It!",
+        subTitle: "Design and Deploy Production-Ready Software",
+        authors: ["Michael T. Nygard"],
+        cover: "img/bibliotheque/release-it.jpg",
+        isbn13: "9780978739218",
+        language: "Anglais",
+        editor: "The Pragmatic Programers",
+        date: 2007
+    }, {
+        id: "working-effectively-with-legacy-code",
+        title: "Working effectively with Legacy Code",
+        authors: ["Michael C. Feathers"],
+        cover: "img/bibliotheque/working-effectively-with-legacy-code.jpg",
+        isbn13: "9780131177055",
+        language: "Anglais",
+        editor: "Prentice Hall",
+        date: 2004
     }
 ]
