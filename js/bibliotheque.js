@@ -90,7 +90,7 @@ var data = [{
         date: 1999
     }, {
         id: "refactoring-to-patterns",
-        title: "Refactoring to Paztterns",
+        title: "Refactoring to Patterns",
         authors: ["Joshua Kerievsky"],
         cover: "img/bibliotheque/refactoring-to-patterns.jpg",
         isbn13: "9780321213358",
