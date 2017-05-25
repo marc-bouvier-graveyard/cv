@@ -68,5 +68,25 @@ var data = [{
         language: "Anglais",
         editor: "O'Reilly",
         date: 2010
+    }, {
+        id: "code-complete-2",
+        title: "Code Complete 2",
+        subTitle: "A practical handbook of software construction",
+        authors: ["Steve McConnell"],
+        cover: "img/bibliotheque/code-complete-2.jpg",
+        isbn13: "9780735619678",
+        language: "Anglais",
+        editor: "Microsoft Press",
+        date: 2004
+    }, {
+        id: "refactoring",
+        title: "Refactoring",
+        subTitle: "Improving the design of existing code",
+        authors: ["Martin Fowler"],
+        cover: "img/bibliotheque/refactoring.jpg",
+        isbn13: "9780201485677",
+        language: "Anglais",
+        editor: "Addison-Wesley",
+        date: 1999
     }
 ]
